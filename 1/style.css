@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    height: 900px;
+}
+
+.wrapper {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    max-width: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: gray;
+}
+
+.count {
+    background-color: aliceblue;
+    width: 35px;
+}
+
+.counter {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plus, .minus {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 10%;
+}
+.wrapper {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.colors {
+    max-width: 1000px;
+    max-height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+
+button {
+    width: inherit;
+    max-height: 25px;
+    min-width: 200px;
+    max-width: 1000px;
+    user-select: none;
+}
